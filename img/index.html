@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Coffee Shop Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+        <a href="#" class="logo">
+            <img src="logo.png" alt="">
+        </a>
+        <!--Menu Icon-->
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <!--Links-->
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#customers">Customers</a></li>
+        </ul>
+
+        <!-- Icons -->
+        <div class="header-icon">
+
+        <!-- Cart Icon: Redirect to cart page -->
+        <a href="cart.html">
+        <i class='bx bx-cart-alt'></i>
+        </a>
+
+        <!-- Search Icon: No change, stays as it is -->
+        <i class='bx bx-search-alt-2' id="search-icon"></i>
+        </div>
+
+
+        <!--search box-->
+        <div class="search-box">
+            <input type="search" placeholder="Search Here.........">
+        </div>
+    </header>
+
+    <!--Home-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Start your day with a cup of coffee</h1>
+            <p>A cozy corner where the scent of freshly brewed coffee fills the air. With warm wooden interiors, lush plants, and a menu of handcrafted drinks and treats, it’s the perfect spot to relax, connect, or simply savor the moment.</p>
+            <p>Discover the best coffee shop in the city</p>
+            <a href="#products" class="btn">Order Now</a>
+        </div>
+        
+        <div class="home-img">
+            <img src="coffee.jpg" alt="">
+        </div>
+    </section>
+
+    <!--About-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>Our History</h2>
+            <p>We serve the best coffee in the city</p>
+            <p>A small coffee shop began with a simple mission: to serve freshly brewed coffee made from ethically sourced beans. Each cup was carefully prepared, offering a range of choices from rich espressos to creamy cappuccinos. Customers loved the quality and care in every sip, making it a favorite spot for coffee enthusiasts and casual visitors alike.</p>
+            <p>As the shop grew, it introduced specialty blends, handcrafted brews, and fresh pastries, all designed to elevate the coffee experience. Whether it was a morning pick-me-up or an afternoon escape, the café became known for not just selling coffee, but creating moments of joy with every cup.</p>
+
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!--Products-->
+    <section class="products" id="products">
+        <div class="heading">
+            <h2>Our Popular Products</h2>
+        </div>
+        <!--Container-->
+        <div class="products-container">
+
+            <div class="box">
+                <img src="p1.png" alt="" id="product-image-1">
+                <h3>Espresso Beans (250g)</h3>
+                <div class="content">
+                    <span>Rs.2000/=</span>
+                    <a href="#" class="add-to-cart" data-name="Espresso Beans (250g)" data-price="2000" data-img="p1.png" >Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="p2.png" alt="" id="product-image-2">
+                <h3>Cappuccino Blend (250g)</h3>
+                <div class="content">
+                    <span>Rs.2200/=</span>
+                    <a href="#" class="add-to-cart" data-name="Cappuccino Blend (250g)" data-price="2200" data-img="p2.png">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="p3.png" alt="" id="product-image-3">
+                <h3>Latte Roast (250g)</h3>
+                <div class="content">
+                    <span>Rs.2500/=</span>
+                    <a href="#" class ="add-to-cart" data-name="Latte Roast (250g)" data-price="2500" data-img="p3.png">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="p4.png" alt="" id="product-image-4">
+                <h3>Americano Roast (250g)</h3>
+                <div class="content">
+                    <span>Rs.3800/=</span>
+                    <a href="#" class="add-to-cart" data-name="Americano Roast (250g)" data-price="3800" data-img="p4.png">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="p5.png" alt="" id="product-image-5">
+                <h3>Mocha Blend (250g)</h3>
+                <div class="content">
+                    <span>Rs.4000/=</span>
+                    <a href="#" class="add-to-cart" data-name="Mocha Blend (250g)" data-price="4000" data-img="p5.png">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="p6.png" alt="" id="product-image-6">
+                <h3>Macchiato Beans (250g)</h3>
+                <div class="content">
+                    <span>Rs.2300/=</span>
+                    <a href="#" class="add-to-cart" data-name="Macchiato Beans (250g)" data-price="2300" data-img="p6.png">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!--Customers-->
+    <section class="customers" id="customers">
+        <div class="heading">
+            <h2>Our Customers</h2>
+        </div>
+
+        <!--Container-->
+        <div class="customers-container">
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+
+                </div>
+                <p>I absolutely love the rich flavors of their cappuccino! The beans are so fresh, and the aroma fills my entire kitchen when I brew it at home. Definitely my go-to coffee shop for both drinks and coffee packets.</p>
+                <h2>John Doe</h2>
+                <img src="rev1.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bx-star'></i>
+
+                </div>
+                <p>The mocha blend is absolutely delicious. It's got the right amount of sweetness and depth. I can tell they use high-quality beans, and it makes all the difference.</p>
+                <h2>James Walker</h2>
+                <img src="rev2.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+
+                </div>
+                <p>I have tried several of their coffee blends, but the cappuccino is my favorite. It's rich, smooth, and perfect every time. I also love how they package the coffee for home brewing!</p>
+                <h2>Emily Johnson</h2>
+                <img src="rev3.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--Footer Section-->
+    <section class="footer">
+        <div class="footer-box">
+            <h3>Coffee Shop</h3>
+            <p>At our coffee shop, we believe in the power of great coffee to bring people together. From our carefully sourced beans to the warmth of our cozy atmosphere, every detail is designed to offer a memorable experience. Whether you're here for a quick pick-me-up or to unwind with friends, we’re dedicated to serving you the perfect cup, every time.</p>
+
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-tiktok'></i></a>
+            </div>
+        </div>
+
+        <div class="footer-box">
+            <h3>Support</h3>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Retuen Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Products</a></li>
+        </div>
+
+        <div class="footer-box">
+            <h3>View Guides</h3>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog post</a></li>
+            <li><a href="#">Our Branches</a></li>
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <div class="contact">
+                <span><i class='bx bx-map'></i>69, Dewala Road, Katubedda, Moratuwa</span>
+                <span><i class='bx bx-phone-call'></i>+9477-1234567</span>
+                <span><i class='bx bxl-gmail'></i>coffeeshop@gmail.com</span>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="copyright">
+        <p>Copyright &copy; 2023 Coffee Shop. All Right Reserved</p>
+    </div>
+
+
+
+
+    
+    
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
