@@ -5,8 +5,6 @@ document.querySelector('#search-icon').onclick = () => {
 }
 
 
-
-
 // Add items to cart and display them on the cart page
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
