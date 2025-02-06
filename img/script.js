@@ -23,6 +23,7 @@ document.querySelectorAll(".add-to-cart").forEach((button) => {
     });
 });
 
+
 // Display cart items in the cart page
 const cartItemsContainer = document.getElementById("cart-items");
 if (cartItemsContainer) {
@@ -48,6 +49,7 @@ if (cartItemsContainer) {
             `;
             cartItemsContainer.appendChild(cartItem);
         });
+        
 
         // Add functionality for remove buttons
         document.querySelectorAll(".remove-btn").forEach((button) => {
