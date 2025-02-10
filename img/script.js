@@ -60,6 +60,7 @@ if (cartItemsContainer) {
                 displayCart();
             });
         });
+        
 
         // Add functionality for buy buttons
         document.querySelectorAll(".buy-btn").forEach((button) => {
