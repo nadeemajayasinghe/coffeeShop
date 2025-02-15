@@ -51,6 +51,7 @@ if (cartItemsContainer) {
         });
         
 
+        
         // Add functionality for remove buttons
         document.querySelectorAll(".remove-btn").forEach((button) => {
             button.addEventListener("click", () => {
