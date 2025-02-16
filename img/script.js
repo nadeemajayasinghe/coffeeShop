@@ -79,3 +79,4 @@ if (cartItemsContainer) {
     displayCart();
 }
 
+
