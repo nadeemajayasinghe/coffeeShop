@@ -63,6 +63,7 @@ if (cartItemsContainer) {
         });
         
 
+        
         // Add functionality for buy buttons
         document.querySelectorAll(".buy-btn").forEach((button) => {
             button.addEventListener("click", (e) => {
