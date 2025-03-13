@@ -33,6 +33,7 @@ if (cartItemsContainer) {
             cartItemsContainer.innerHTML = "<p>Your cart is empty.</p>";
             return;
         }
+        
 
         cart.forEach((item, index) => {
             const cartItem = document.createElement("div");
