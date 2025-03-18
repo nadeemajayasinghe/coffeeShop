@@ -35,6 +35,7 @@ if (cartItemsContainer) {
             return;
         }
         
+        
 
         cart.forEach((item, index) => {
             const cartItem = document.createElement("div");
