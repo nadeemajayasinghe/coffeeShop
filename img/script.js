@@ -25,6 +25,7 @@ document.querySelectorAll(".add-to-cart").forEach((button) => {
 
 
 
+
 // Display cart items in the cart page
 const cartItemsContainer = document.getElementById("cart-items");
 if (cartItemsContainer) {
